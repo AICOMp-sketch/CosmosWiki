@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CosmosWiki | Space Exploration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">                                  <link rel="stylesheet" href="styles.css"/>
+    </head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="sticky top-0 z-10 bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-2 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <a href="#" class="flex items-center space-x-2">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/09ee0b82-a762-46ed-ad8e-2aadb43b434e.png" alt="CosmosWiki logo" class="rounded-full w-8 h-8">
+                    <span class="text-lg font-bold text-blue-600">CosmosWiki</span>
+                </a>
+                <div class="relative w-96">
+                    <input type="text" placeholder="Search CosmosWiki..." 
+                        class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <button class="absolute right-3 top-2 text-gray-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-sm font-medium text-blue-600 hover:underline">Create account</a>
+                <a href="#" class="text-sm font-medium text-blue-600 hover:underline">Log in</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="container mx-auto px-4 py-6 flex">
+        <!-- Sidebar -->
+        <aside class="hidden lg:block w-64 pr-6 space-y-6">
+            <div class="bg-white rounded-lg shadow-sm p-4">
+                <h3 class="font-semibold text-lg mb-4">Navigation</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="sidebar-link flex items-center space-x-2 text-gray-700 hover:text-blue-600"><span>Main Page</span></a></li>
+                    <li><a href="#" class="sidebar-link flex items-center space-x-2 text-gray-700 hover:text-blue-600"><span>Featured Articles</span></a></li>
+                    <li><a href="#" class="sidebar-link flex items-center space-x-2 text-gray-700 hover:text-blue-600"><span>Current Events</span></a></li>
+                    <li><a href="#" class="sidebar-link flex items-center space-x-2 text-gray-700 hover:text-blue-600"><span>Donate</span></a></li>
+                    <li><a href="#" class="sidebar-link flex items-center space-x-2 text-gray-700 hover:text-blue-600"><span>About</span></a></li>
+                </ul>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-sm p-4">
+                <h3 class="font-semibold text-lg mb-4">Tools</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="sidebar-link flex items-center space-x-2 text-gray-700 hover:text-blue-600"><span>What links here</span></a></li>
+                    <li><a href="#" class="sidebar-link flex items-center space-x-2 text-gray-700 hover:text-blue-600"><span>Related changes</span></a></li>
+                    <li><a href="#" class="sidebar-link flex items-center space-x-2 text-gray-700 hover:text-blue-600"><span>Special pages</span></a></li>
+                    <li><a href="#" class="sidebar-link flex items-center space-x-2 text-gray-700 hover:text-blue-600"><span>Printable version</span></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1">
+            <div class="flex">
+                <!-- Table of Contents -->
+                <div class="hidden xl:block w-64 pl-6">
+                    <div class="sticky top-24 bg-white rounded-lg shadow-sm p-4 ml-6">
+                        <h2 class="font-semibold text-lg mb-4">Contents</h2>
+                        <ol class="space-y-2 text-sm text-gray-700">
+                            <li class="toc-item px-2 py-1 rounded"><a href="#history" class="block">History of space exploration</a></li>
+                            <li class="toc-item px-2 py-1 rounded"><a href="#early" class="block">Early endeavors</a></li>
+                            <li class="toc-item px-2 py-1 rounded"><a href="#modern" class="block">Modern space programs</a></li>
+                            <li class="toc-item px-2 py-1 rounded"><a href="#technology" class="block">Technology and innovation</a></li>
+                            <li class="toc-item px-2 py-1 rounded"><a href="#challenges" class="block">Challenges and risks</a></li>
+                            <li class="toc-item px-2 py-1 rounded"><a href="#future" class="block">Future of space exploration</a></li>
+                            <li class="toc-item px-2 py-1 rounded"><a href="#references" class="block">References</a></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Article Content -->
+                <article class="flex-1 bg-white rounded-lg shadow-sm p-6 article-content">
+                    <h1 class="text-3xl font-bold mb-6">Space Exploration</h1>
+                    
+                    <div class="flex items-center mb-8">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/721a1689-9eef-4c63-9596-e5f03d3474d9.png" alt="View of Earth from space showing continents and swirling clouds" class="rounded-lg mr-6 w-1/2 h-auto">
+                        <p class="text-gray-700 italic">
+                            Space exploration represents humanity's most ambitious technological achievements. 
+                            From early rocketry experiments to modern interplanetary missions, our quest to understand 
+                            and explore the cosmos continues to push boundaries.
+                        </p>
+                    </div>
+
+                    <h2 id="history" class="text-2xl font-semibold mt-8 mb-4 pt-2">History of Space Exploration</h2>
+                    <p>
+                        The history of space exploration spans millennia of astronomical observations and centuries of 
+                        theoretical and practical developments. While early civilizations made astronomical observations, 
+                        the 20th century marked the beginning of physical space exploration with rocket technology.
+                    </p>
+
+                    <h3 id="early" class="text-xl font-semibold mt-6 mb-3">Early Endeavors</h3>
+                    <p>
+                        The first artificial Earth satellite, Sputnik 1, was launched by the Soviet Union in 1957. This 
+                        marked the beginning of the Space Age. Just four years later, in 1961, Yuri Gagarin became the 
+                        first human to journey into outer space in Vostok 1.
+                    </p>
+                    <p>
+                        The subsequent space race between the United States and the Soviet Union led to rapid advances 
+                        in rocket technology, human spaceflight, and scientific instrumentation. Key milestones included:
+                    </p>
+                    <ul class="list-disc pl-8 my-4 space-y-1">
+                        <li>First artificial satellite (Sputnik 1, 1957)</li>
+                        <li>First human in space (Yuri Gagarin, 1961)</li>
+                        <li>First woman in space (Valentina Tereshkova, 1963)</li>
+                        <li>First spacewalk (Alexey Leonov, 1965)</li>
+                        <li>First Moon landing (Apollo 11, 1969)</li>
+                    </ul>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e35ec321-a40c-4239-a51f-a0a634477061.png" alt="Vintage photograph of the Sputnik 1 satellite with Earth in the background" class="w-full h-auto rounded-lg mb-2">
+                            <p class="text-sm text-gray-600 text-center">Sputnik 1, the first artificial satellite (1957)</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/335afd54-380b-41cd-91bc-9208aef0baaa.png" alt="Historic image of the Apollo 11 moon landing with astronauts planting the flag" class="w-full h-auto rounded-lg mb-2">
+                            <p class="text-sm text-gray-600 text-center">Apollo 11 Moon landing (1969)</p>
+                        </div>
+                    </div>
+
+                    <h3 id="modern" class="text-xl font-semibold mt-6 mb-3">Modern Space Programs</h3>
+                    <p>
+                        Following the initial space race, international cooperation increased with projects like the 
+                        International Space Station (ISS), which has been continuously inhabited since 2000. Private 
+                        companies like SpaceX, Blue Origin, and Virgin Galactic are now playing increasingly important 
+                        roles in space launch services and commercialization.
+                    </p>
+                    <p>
+                        Notable modern achievements include:
+                    </p>
+                    <ul class="list-disc pl-8 my-4 space-y-1">
+                        <li>Launch of the Hubble Space Telescope (1990)</li>
+                        <li>Continuous habitation of the ISS (2000-present)</li>
+                        <li>Successful Mars rover missions (Spirit, Opportunity, Curiosity, Perseverance)</li>
+                        <li>First images of a black hole (2019)</li>
+                        <li>Commercial crew programs (SpaceX Dragon, Boeing Starliner)</li>
+                    </ul>
+
+                    <h2 id="technology" class="text-2xl font-semibold mt-8 mb-4 pt-2">Technology and Innovation</h2>
+                    <p>
+                        Space exploration has driven numerous technological innovations, many of which have found applications 
+                        in everyday life. Key areas of technological advancement include:
+                    </p>
+                    <ul class="list-disc pl-8 my-4 space-y-1">
+                        <li>Rocket propulsion systems (liquid fuel, ion thrusters)</li>
+                        <li>Spacecraft materials and thermal protection</li>
+                        <li>Onboard computers and artificial intelligence</li>
+                        <li>Robotics and robotic arms for spacecraft</li>
+                        <li>Satellite technology and miniaturization</li>
+                    </ul>
+
+                    <div class="flex justify-center my-8">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0bec193d-a1f2-4f0d-a300-30aa6bc44e47.png" alt="Concept illustration of next-generation space propulsion technologies including ion drives and solar sails" class="rounded-lg">
+                    </div>
+
+                    <h2 id="challenges" class="text-2xl font-semibold mt-8 mb-4 pt-2">Challenges and Risks</h2>
+                    <p>
+                        Space exploration remains one of humanity's most challenging endeavors, with significant technical, 
+                        physiological, and financial obstacles. Key challenges include:
+                    </p>
+                    <ul class="list-disc pl-8 my-4 space-y-1">
+                        <li>Human health in microgravity (muscle atrophy, bone loss)</li>
+                        <li>Radiation exposure outside Earth's magnetosphere</li>
+                        <li>Psychological effects of long-duration spaceflight</li>
+                        <li>Life support systems in vacuum environments</li>
+                        <li>Exorbitant costs of space launches</li>
+                        <li>Space debris in low Earth orbit</li>
+                    </ul>
+
+                    <h2 id="future" class="text-2xl font-semibold mt-8 mb-4 pt-2">Future of Space Exploration</h2>
+                    <p>
+                        Current goals in space exploration include establishing a sustainable human presence on the Moon 
+                        through programs like Artemis, crewed missions to Mars, and continued robotic exploration of the 
+                        solar system and beyond.
+                    </p>
+                    <p>
+                        Emerging technologies like reusable rockets, space tourism, asteroid mining, and even potential 
+                        space-based solar power generation point to a future where space plays an increasingly important 
+                        role in humanity's development.
+                    </p>
+
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-8 rounded-r">
+                        <p class="font-medium text-blue-800">"The exploration of space will go ahead, whether we join in it or not, and it is one of the greatest adventures of all time."</p>
+                        <p class="text-blue-600 mt-2">— John F. Kennedy, 1962</p>
+                    </div>
+
+                    <h2 id="references" class="text-2xl font-semibold mt-8 mb-4 pt-2">References</h2>
+                    <ol class="list-decimal pl-8 space-y-2">
+                        <li>"History of Space Exploration", NASA Official Publications, 2022</li>
+                        <li>"Modern Space Programs", Journal of Space Science, 2021</li>
+                        <li>International Space Station Annual Report (2023)</li>
+                        <li>"The Future of Human Spaceflight", Space Policy Institute, 2023</li>
+                        <li>"Space Technology Trends", Aerospace Engineering Review, 2022</li>
+                    </ol>
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 mt-12 border-t border-gray-200">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">CosmosWiki</h3>
+                    <p class="text-gray-600">The free encyclopedia of space exploration and astronomy</p>
+                </div>
+                <div>
+                    <h4 class="font-medium mb-3">Content</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-600 hover:underline">Featured Articles</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Browse Categories</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Recent Edits</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-medium mb-3">Community</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-600 hover:underline">Contribute</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Discussion Forum</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Meet Our Editors</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-medium mb-3">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-600 hover:underline">Terms of Service</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Privacy Policy</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center text-gray-500 mt-8 pt-6 border-t border-gray-200">
+                <p>© 2023 CosmosWiki. Content is available under Creative Commons Attribution-ShareAlike 3.0.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
