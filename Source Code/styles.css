@@ -1,0 +1,17 @@
+body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .sidebar-link:hover span {
+            text-decoration: underline;
+        }
+        .toc-item:hover {
+            background-color: rgba(59, 130, 246, 0.1);
+        }
+        .article-content p {
+            margin-bottom: 1.25rem;
+            line-height: 1.7;
+        }
+        .article-content h2 {
+            border-bottom: 1px solid #e5e7eb;
+        }
